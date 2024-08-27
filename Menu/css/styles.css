@@ -1,0 +1,145 @@
+#principal{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+}
+
+#comida{
+    background-image: url("../img/comida.jpg");
+    background-size: cover;
+}
+
+#hamburguesa_menu{
+    position: absolute;
+    border-radius: 50%;
+    outline: dashed white;
+    top: 130px;
+    left: 100px;
+}
+
+#bebida_menu{
+    position: absolute;
+    border-radius: 80%;
+    outline: dashed white;
+    top: 350px;
+    left: 1000px;
+}
+
+h1{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 130px;
+    left: 220px;
+    font-size: 45px;
+}
+
+a{
+    position: absolute;
+    color: yellow;
+    font-size: 40px;
+    top: 250px;
+    left: 280px;
+}
+
+#hamburguesa{
+    position: absolute;
+    border-radius: 60%;
+    top: 330px;
+    left: 320px;
+}
+
+#primero{
+    position: absolute;
+    color: white;
+    border: dashed white;
+    top: 140px;
+    left: 390px;
+    width: 820px;
+    height: 150px;
+}
+
+.linea-vertical {
+    position: absolute;
+    border: dashed white;
+    width: 2px;
+    height: 150px; 
+    background-color: #ffffff; 
+    border: none;
+    margin: 0 20px;
+    top: 0px;
+    left: 380px;
+}
+
+li{
+    font-size: 16px;
+}
+
+#hamburguesa_uno{
+    position: absolute;
+    top: 15px;
+    left: 450px;
+}
+
+#hamburguesa_dos{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+#hamburguesa_tres{
+    position: absolute;
+    top: 85px;
+    left: 450px;
+}
+
+#hamburguesa_cuatro{
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}
+
+#segundo{
+    position: absolute;
+    color: white;
+    border: dashed white;
+    top: 380px;
+    left: 150px;
+    width: 820px;
+    height: 150px;
+}
+
+.linea-vertical_2 {
+    position: absolute;
+    border: dashed white;
+    width: 2px;
+    height: 150px; 
+    background-color: #ffffff; 
+    border: none;
+    margin: 0 20px;
+    top: 0px;
+    left: 380px;
+}
+
+#bebida_uno{
+    position: absolute;
+    top: 15px;
+    left: 450px;
+}
+
+#bebida_dos{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+
+#bebida_tres{
+    position: absolute;
+    top: 85px;
+    left: 450px;
+}
+
+#bebida_cuatro{
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}

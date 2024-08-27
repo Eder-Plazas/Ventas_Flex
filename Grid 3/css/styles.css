@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: solid black;
+}
+
+#container{
+    display: grid;
+    grid-template-areas: 
+    "nav header header header"
+    "nav productos productos aside"
+    "nav servicios servicios aside"
+    "nav footer footer footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    height: 80vh;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+#productos{
+    grid-area: productos;
+}
+
+#servicios{
+    grid-area: servicios;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}

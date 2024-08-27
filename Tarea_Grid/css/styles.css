@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+@media (max-width: 480px) {
+    #container{
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "A"
+        "A1"
+        "A2"
+        "A3"
+        "A4"
+        "B"
+        "B1"
+        "C"
+        "C1"
+        "D"
+        "D1"
+        "D2"
+        ;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        height: 100vh;
+    }    
+}
+
+@media  (min-width: 481px) and (max-width: 1023px) {
+    #container{
+        width: 100%;
+        background-color: aqua;
+        display: grid;
+        grid-template-areas: 
+        "A A"
+        "A1 A2"
+        "A3 A4"
+        "B B"
+        "B B1"
+        "C C"
+        "C C1"
+        "D D"
+        "D D1"
+        "D2 D2";
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        height: 100vh;
+    }    
+}
+
+@media  (min-width: 1024px) and (max-width: 1200px) {
+    #container{
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "A A A A"
+        "A A A A"
+        "A1 A2 A3 A4"
+        "B B B B"
+        "B B B B1"
+        "C C C C"
+        "C C C C1"
+        "D D D D"
+        "D D D D1"
+        "D2 D2 D2 D2"
+        "D2 D2 D2 D2"
+        ;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        height: 100vh;
+    }    
+}
+
+#A{
+    grid-area: A;
+}
+
+#A1{
+    grid-area: A1;
+}
+
+#A2{
+    grid-area: A2;
+}
+
+#A3{
+    grid-area: A3;
+}
+
+#A4{
+    grid-area: A4;
+}
+
+#B{
+    grid-area: B;
+}
+
+#B1{
+    grid-area: B1;
+}
+
+#C{
+    grid-area: C;
+}
+
+#C1{
+    grid-area: C1;
+}
+
+#D{
+    grid-area: D;
+}
+
+#D1{
+    grid-area: D1;
+}
+
+#D2{
+    grid-area: D2;
+}
